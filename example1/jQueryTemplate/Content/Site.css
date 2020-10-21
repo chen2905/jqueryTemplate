@@ -1,0 +1,90 @@
+﻿body
+{
+    background-color: #FFFFFF;
+    font-size: .75em;
+    font-family: Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    color: #696969;
+}
+
+/* Button */
+.linkbutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+}.linkbutton:hover {
+	background-color:#378de5;
+}.linkbutton:active {
+	position:relative;
+	top:1px;
+}
+
+/* Checkbox tree */
+#divCheckBoxes 
+{
+    border-style: solid;
+    border-width: 2px 1px 1px;
+    border-color: #F05D23 #797979 #797979;
+    margin-top: 5px;
+    padding: 0px;
+    width: 100%; 
+    max-height: 500px;
+    overflow-x: hidden;
+}
+
+#divCheckBoxes ul
+{
+    margin: 0px; padding: 0px;
+}
+
+#divCheckBoxes li
+{
+    padding: 0px 0px 6px 0px;
+    list-style: none outside none;
+}
+
+#divCheckBoxes li>span 
+{
+    border-bottom: 1px dotted #CCCCCC;
+    padding: 2px;
+    display: block;
+}
+
+#divCheckBoxes li>span>label.static {
+    margin-left: 15px
+}
+
+#divCheckBoxes li>span.tierTwo {
+    padding-left: 30px
+}
+
+#divCheckBoxes li>span.tierThree {
+    padding-left: 70px
+}
+
+a.toggle 
+{
+    background: url("images/ToggleClose.png") no-repeat scroll 3px 6px transparent;
+    padding-left: 15px;
+    text-decoration: none;
+    vertical-align: top
+}
+
+a.toggle.opened 
+{
+    background: url("images/ToggleOpen.png") no-repeat scroll 3px 6px transparent;
+}
